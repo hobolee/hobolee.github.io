@@ -8,13 +8,13 @@
     - name: Languages
       value: Chinese, English
 
-- title: Academic Interests
+- title: Research Interests
   type: nested_list
   contents:
   - title: AI
       items:
-        - Multimodal LLM, alignment of multi-modalities: climate data, satellite images, text, etc.
-        - AI for science: climate modeling
+        - Multimodal LLM, alignment of multi-modalities, inclding climate data, satellite images, text, etc.
+        - AI for science, climate modeling
     - title: Visualization
       items: 
         - Visualization of data
@@ -101,11 +101,11 @@
       author: Yueya Wang, Haobo Li, Xiaoming Shi, and Jimmy Fung
       institution: Geophysical Research Letters
       year: 2024
-    - title: CLLMate: A Multimodal Benchmark for Weather and Climate Events Forecasting
+    - title: CLLMate, A Multimodal Benchmark for Weather and Climate Events Forecasting
       author: Haobo Li, Zhaowei Wang, Yueya Wang, Alexis Kai Hon Lau, Huamin Qu
       institution: arXiv preprint arXiv:2409.19058
       year: 2024
-    - title: Save It for the" Hot" Day: An LLM-Empowered Visual Analytics System for Heat Risk Management
+    - title: Save It for the" Hot" Day, An LLM-Empowered Visual Analytics System for Heat Risk Management
       author: Haobo Li, Wong Kam-Kwai, Yan Luo, Juntong Chen, Chengzhong Liu, Yaxuan Zhang, Alexis Kai Hon Lau, Huamin Qu, Dongyu Liu
       institution: arXiv preprint arXiv:2406.03317
       year: 2024
