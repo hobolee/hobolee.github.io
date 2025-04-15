@@ -11,9 +11,9 @@
 - title: Research Interests
   type: nested_list
   contents:
-  - title: AI
+    - title: AI
       items:
-        - Multimodal LLM, alignment of multi-modalities, inclding climate data, satellite images, text, etc.
+        - Multimodal LLM, alignment of multi-modalities, including climate data, satellite images, text, etc.
         - AI for science, climate modeling
     - title: Visualization
       items: 
@@ -138,8 +138,6 @@
     - title: COMP1029P (L1) - Python Programming Bridging Course
       institution: The Hong Kong University of Science and Technology
       year: Spring 2023
-    
-
 
 # - title: Skills
 #   type: list
