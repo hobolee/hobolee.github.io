@@ -93,6 +93,10 @@
 - title: Research Experience
   type: time_table
   contents:
+    - title: PIPE: Physics-Informed Position Encoding for Alignment of Satellite Images and Time Series
+      author: Haobo Li, Eunseo Jung, Zixin Chen, Zhaowei Wang, Yueya Wang, Huamin Qu, Alexis Kai Hon Lau
+      institution: IEEE Transactions on Visualization and Computer Graphics
+      year: 2025
     - title: Exploring Spatial Hybrid User Interface for Visual Sensemaking
       author: Wai Tong, Haobo Li, Meng Xia, Wong Kam-Kwai, Ting-Chuen Pong, Huamin Qu, Yalong Yang
       institution: IEEE Transactions on Visualization and Computer Graphics
