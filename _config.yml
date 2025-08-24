@@ -230,8 +230,8 @@ display_tags: ['experience', 'idea', 'daily life'] # this tags will be dispalyed
 
 scholar:
 
-  last_name: [Haobo]
-  first_name: [Li]
+  last_name: [Li]
+  first_name: [Haobo, H.]
 
   style: apa
   locale: en
