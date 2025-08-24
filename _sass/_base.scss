@@ -591,6 +591,47 @@ footer.sticky-bottom {
   }
 }
 
+// News styling
+.news {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  
+  h2 {
+    margin-bottom: 1rem;
+    color: var(--global-text-color);
+  }
+  
+  .table {
+    margin-bottom: 0;
+    
+    th {
+      border-top: none;
+      border-bottom: none;
+      padding: 0.25rem 0.75rem 0.25rem 0;
+      color: var(--global-text-color-light);
+      font-weight: normal;
+      width: 120px;
+    }
+    
+    td {
+      border-top: none;
+      border-bottom: none;
+      padding: 0.25rem 0.75rem 0.25rem 0;
+      color: var(--global-text-color);
+    }
+  }
+  
+  .news-title {
+    color: var(--global-text-color);
+    text-decoration: none;
+    
+    &:hover {
+      color: var(--global-theme-color);
+      text-decoration: none;
+    }
+  }
+}
+
 // Awards styling (similar to news)
 .awards {
   margin-top: 2rem;
@@ -607,7 +648,7 @@ footer.sticky-bottom {
     th {
       border-top: none;
       border-bottom: none;
-      padding: 0.5rem 0.75rem 0.5rem 0;
+      padding: 0.25rem 0.75rem 0.25rem 0;
       color: var(--global-text-color-light);
       font-weight: normal;
       width: 120px;
@@ -616,7 +657,7 @@ footer.sticky-bottom {
     td {
       border-top: none;
       border-bottom: none;
-      padding: 0.5rem 0.75rem 0.5rem 0;
+      padding: 0.25rem 0.75rem 0.25rem 0;
       color: var(--global-text-color);
     }
   }
