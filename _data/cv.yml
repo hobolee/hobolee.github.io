@@ -93,7 +93,7 @@
 - title: Research Experience
   type: time_table
   contents:
-      - title: CLLMate, A Multimodal Benchmark for Weather and Climate Events Forecasting
+    - title: CLLMate, A Multimodal Benchmark for Weather and Climate Events Forecasting
       author: Haobo Li, Zhaowei Wang, Yueya Wang, Alexis Kai Hon Lau, Huamin Qu
       institution: EMNLP 2025 Main Conference
       year: 2025
