@@ -22,7 +22,11 @@ layout: default
                   {% elsif entry.type == "nested_list" %}
                     {% include cv/nested_list.html %}
                   {% elsif entry.type == "time_table" %}
-                   {% include cv/time_table.html %}
+                    {% if entry.title == "Research Experience" %}
+                      {% include cv/research_experience.html %}
+                    {% else %}
+                      {% include cv/time_table.html %}
+                    {% endif %}
                   {% else %}
                     {{ entry.contents }}
                   {% endif %}
