@@ -1,4 +1,4 @@
-<ul class="card-text font-weight-light list-group list-group-flush">
+<ul class="card-text font-weight-light list-group list-group-flush research-experience">
     {% for content in entry.contents %}
       <li class="list-group-item">
         <div class="row">
@@ -11,18 +11,18 @@
           {% endif %}
           <div class="col-xs-10 cl-sm-10 col-md-10 mt-2 mt-md-0">
             {% if content.title %}
-            <h6 class="title font-weight-bold ml-1 ml-md-4" style="color: var(--global-theme-color); font-size: 1.1rem;">{{content.title}}</h6>
+            <h6 class="title font-weight-bold ml-1 ml-md-4">{{content.title}}</h6>
             {% endif %}
             {% if content.institution %}
-            <h6 class="ml-1 ml-md-4" style="font-size: 0.9rem; color: var(--global-text-color-light); font-style: italic;">{{content.institution}}</h6>
+            <h6 class="institution ml-1 ml-md-4">{{content.institution}}</h6>
             {% endif %}
             {% if content.author %}
-              <h6 class="ml-1 ml-md-4" style="font-size: 0.85rem; color: var(--global-text-color);">
+              <h6 class="author ml-1 ml-md-4">
                 {% assign authors = content.author | split: ", " %}
                 {% for author in authors %}
                   {% assign clean_author = author | strip %}
                   {% if clean_author == "Haobo Li" or clean_author == "Haobo Li," %}
-                    <span class="font-weight-bold" style="color: var(--global-theme-color);">{{ author }}</span>
+                    <span class="author-bold">{{ author }}</span>
                   {% else %}
                     {{ author }}
                   {% endif %}
