@@ -52,6 +52,10 @@ layout: default
           <!-- Awards -->
           {%- include awards.html %}
           {%- endif %}
+          {% if page.services -%}
+          <!-- Services -->
+          {%- include services.html %}
+          {%- endif %}
           {%- if page.social %}
           <!-- Social -->
           <div class="social">

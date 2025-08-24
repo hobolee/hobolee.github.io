@@ -145,6 +145,11 @@ collections:
       layout: post
     output: true
     permalink: /awards/:path/
+  services:
+    defaults:
+      layout: post
+    output: true
+    permalink: /services/:path/
   projects:
     output: true
     permalink: /projects/:path/
@@ -154,6 +159,9 @@ news_limit:  # leave blank to include all the news in the `_news` folder
 
 awards_scrollable: true # adds a vertical scroll bar if there are more than 3 awards items
 awards_limit:  # leave blank to include all the awards in the `_awards` folder
+
+services_scrollable: true # adds a vertical scroll bar if there are more than 3 service items
+services_limit:  # leave blank to include all the services in the `_services` folder
 
 # -----------------------------------------------------------------------------
 # Jekyll settings
