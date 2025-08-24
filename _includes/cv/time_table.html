@@ -21,7 +21,7 @@
                 {% assign authors = content.author | split: ", " %}
                 {% for author in authors %}
                   {% assign clean_author = author | strip %}
-                  {% if clean_author == "Haobo Li" or clean_author == "Haobo Li," or clean_author contains "Haobo Li" %}
+                  {% if clean_author == "Haobo Li" or clean_author == "Haobo Li," %}
                     <span class="font-weight-bold">{{ author }}</span>
                   {% else %}
                     {{ author }}
