@@ -93,6 +93,10 @@
 - title: Research Experience
   type: time_table
   contents:
+      - title: CLLMate, A Multimodal Benchmark for Weather and Climate Events Forecasting
+      author: Haobo Li, Zhaowei Wang, Yueya Wang, Alexis Kai Hon Lau, Huamin Qu
+      institution: EMNLP 2025 Main Conference
+      year: 2025
     - title: PIPE, Physics-Informed Position Encoding for Alignment of Satellite Images and Time Series
       author: Haobo Li, Eunseo Jung, Zixin Chen, Zhaowei Wang, Yueya Wang, Huamin Qu, Alexis Kai Hon Lau
       institution: arXiv preprint
@@ -104,10 +108,6 @@
     - title: Assessing the Impact of Cumulus Convection and Turbulence Parameterizations on Typhoon Precipitation Forecast
       author: Yueya Wang, Haobo Li, Xiaoming Shi, and Jimmy Fung
       institution: Geophysical Research Letters
-      year: 2024
-    - title: CLLMate, A Multimodal Benchmark for Weather and Climate Events Forecasting
-      author: Haobo Li, Zhaowei Wang, Yueya Wang, Alexis Kai Hon Lau, Huamin Qu
-      institution: arXiv preprint arXiv:2409.19058
       year: 2024
     - title: Save It for the "Hot" Day, An LLM-Empowered Visual Analytics System for Heat Risk Management
       author: Haobo Li, Wong Kam-Kwai, Yan Luo, Juntong Chen, Chengzhong Liu, Yaxuan Zhang, Alexis Kai Hon Lau, Huamin Qu, Dongyu Liu
