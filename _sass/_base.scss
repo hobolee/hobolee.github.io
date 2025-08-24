@@ -593,11 +593,11 @@ footer.sticky-bottom {
 
 // News styling
 .news {
-  margin-top: 2rem;
-  margin-bottom: 2rem;
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
   
   h2 {
-    margin-bottom: 1rem;
+    margin-bottom: 0.75rem;
     color: var(--global-text-color);
   }
   
@@ -607,17 +607,19 @@ footer.sticky-bottom {
     th {
       border-top: none;
       border-bottom: none;
-      padding: 0.25rem 0.75rem 0.25rem 0;
+      padding: 0.1rem 0.75rem 0.1rem 0;
       color: var(--global-text-color-light);
       font-weight: normal;
       width: 120px;
+      font-size: 0.9rem;
     }
     
     td {
       border-top: none;
       border-bottom: none;
-      padding: 0.25rem 0.75rem 0.25rem 0;
+      padding: 0.1rem 0.75rem 0.1rem 0;
       color: var(--global-text-color);
+      font-size: 0.9rem;
     }
   }
   
@@ -632,13 +634,13 @@ footer.sticky-bottom {
   }
 }
 
-// Awards styling (similar to news)
+// Awards styling (identical to news)
 .awards {
-  margin-top: 2rem;
-  margin-bottom: 2rem;
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
   
   h2 {
-    margin-bottom: 1rem;
+    margin-bottom: 0.75rem;
     color: var(--global-text-color);
   }
   
@@ -648,17 +650,19 @@ footer.sticky-bottom {
     th {
       border-top: none;
       border-bottom: none;
-      padding: 0.25rem 0.75rem 0.25rem 0;
+      padding: 0.1rem 0.75rem 0.1rem 0;
       color: var(--global-text-color-light);
       font-weight: normal;
       width: 120px;
+      font-size: 0.9rem;
     }
     
     td {
       border-top: none;
       border-bottom: none;
-      padding: 0.25rem 0.75rem 0.25rem 0;
+      padding: 0.1rem 0.75rem 0.1rem 0;
       color: var(--global-text-color);
+      font-size: 0.9rem;
     }
   }
   
