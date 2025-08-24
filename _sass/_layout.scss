@@ -2,10 +2,13 @@
  * Content
  ******************************************************************************/
 
+// Academic Body Styling
 body {
   padding-bottom: 70px;
   color: var(--global-text-color);
   background-color: var(--global-bg-color);
+  font-family: 'Georgia', 'Times New Roman', serif;
+  line-height: 1.6;
 
   h1, h2, h3, h4, h5, h6 {
     scroll-margin-top: 66px;
@@ -22,8 +25,40 @@ body.sticky-bottom-footer {
   padding-bottom: 0;
 }
 
+// Academic Container
 .container {
   max-width: $max-content-width;
+  padding: 0 2rem;
+}
+
+// Academic Content Layout
+.post {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 2rem 0;
+  
+  .post-header {
+    text-align: center;
+    margin-bottom: 3rem;
+    padding-bottom: 2rem;
+    border-bottom: 3px solid var(--global-theme-color);
+    
+    .post-title {
+      font-size: 2.5rem;
+      font-weight: 700;
+      color: var(--global-theme-color);
+      margin-bottom: 1rem;
+      letter-spacing: -0.03em;
+    }
+    
+    .post-description {
+      font-size: 1.2rem;
+      color: var(--global-text-color-light);
+      font-style: italic;
+      max-width: 600px;
+      margin: 0 auto;
+    }
+  }
 }
 
 // Profile
