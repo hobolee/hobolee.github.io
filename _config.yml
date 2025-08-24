@@ -140,12 +140,20 @@ collections:
       layout: post
     output: true
     permalink: /news/:path/
+  awards:
+    defaults:
+      layout: post
+    output: true
+    permalink: /awards/:path/
   projects:
     output: true
     permalink: /projects/:path/
 
 news_scrollable: true # adds a vertical scroll bar if there are more than 3 news items
 news_limit:  # leave blank to include all the news in the `_news` folder
+
+awards_scrollable: true # adds a vertical scroll bar if there are more than 3 awards items
+awards_limit:  # leave blank to include all the awards in the `_awards` folder
 
 # -----------------------------------------------------------------------------
 # Jekyll settings

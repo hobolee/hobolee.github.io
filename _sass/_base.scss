@@ -525,7 +525,7 @@ footer.sticky-bottom {
         }
         > em {
           border-bottom: 1px solid;
-          font-style: normal;
+          // font-style: normal;
           font-weight: bold;
         }
         > span.more-authors {
@@ -587,6 +587,47 @@ footer.sticky-bottom {
       div.abstract.hidden.open {
         border-color: var(--global-text-color);
       }
+    }
+  }
+}
+
+// Awards styling (similar to news)
+.awards {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  
+  h2 {
+    margin-bottom: 1rem;
+    color: var(--global-text-color);
+  }
+  
+  .table {
+    margin-bottom: 0;
+    
+    th {
+      border-top: none;
+      border-bottom: none;
+      padding: 0.5rem 0.75rem 0.5rem 0;
+      color: var(--global-text-color-light);
+      font-weight: normal;
+      width: 120px;
+    }
+    
+    td {
+      border-top: none;
+      border-bottom: none;
+      padding: 0.5rem 0.75rem 0.5rem 0;
+      color: var(--global-text-color);
+    }
+  }
+  
+  .awards-title {
+    color: var(--global-text-color);
+    text-decoration: none;
+    
+    &:hover {
+      color: var(--global-theme-color);
+      text-decoration: none;
     }
   }
 }
