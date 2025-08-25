@@ -1,7 +1,7 @@
 ---
 layout: post
-date: 2025-08-01
+date: 2025-07-24
 inline: true
 ---
 
-The RedBird Scoloarship.
+HKUST RedBird Academic Excellence Award.
